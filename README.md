@@ -40,8 +40,8 @@ def QR_Decomposition(A):
     for i in range(n):
         for j in range(i,m):
             R[i,j]=A[:,j]@Q[:,i]
-    print(Q)
-    print(R)
+    print("The Q Matrix is\n"Q)
+    print("The R Matrix is\n"R)
 a=np.array(eval(input()))
 QR_Decomposition(a)
 
@@ -49,8 +49,7 @@ QR_Decomposition(a)
 
 ## Output
 ```
-
+![image](https://github.com/user-attachments/assets/b4b24d0c-904a-4dcd-9acd-6709045b0944)
 ```
-
 ## Result
 Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
